@@ -1,4 +1,4 @@
-package Spring.lesson1;
+package Spring.Spring_in_IDE_lesson1;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
@@ -6,6 +6,8 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 public class Test {
+    String testName;
+
     public static void show() {
 //        Address address = new Address();
 //        address.greetings("Joxa");
@@ -21,5 +23,13 @@ public class Test {
 
         Student student = (Student)factory.getBean("studentbean");
         student.displayInfo();
+    }
+
+    public String getTestName() {
+        return testName;
+    }
+
+    public void setTestName(String testName) {
+        this.testName = testName;
     }
 }
