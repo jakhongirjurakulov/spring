@@ -1,4 +1,4 @@
-package Spring.lesson1;
+package Spring.Spring_in_IDE_lesson1;
 
 public class Employee {
     Address address;

@@ -8,6 +8,8 @@ import org.springframework.core.io.Resource;
 public class Test {
     String testName;
 
+    Integer number;
+
     public static void show() {
 //        Address address = new Address();
 //        address.greetings("Joxa");
@@ -31,5 +33,9 @@ public class Test {
 
     public void setTestName(String testName) {
         this.testName = testName;
+    }
+
+    public Integer getNumber() {
+        return number;
     }
 }
